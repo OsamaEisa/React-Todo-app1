@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #46529d;
+  color: #fff
+}
+
+.text-center, h3 {
+  text-align: center
+}
+
+.container {
+  width: 60%;
+  margin: 10% auto
+}
+/* List Item */
+.ListItems {
+  background-color: #fff;
+  color: #46529d
+}
+.ListItems h3 {
+  color: #f00;
+  margin: 0;
+  padding: 10px 20px;
+  text-align: center
+}
+.ListItems span {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  border: 0.3px solid #ccc
+}
+.ListItems span.title {
+  background-color: #2ebaee;
+  color: #fff
+}
+.ListItems span.icon {
+  cursor: pointer;
+  color: #f00
+}
+.ListItems span.name, form input[type=text] {
+  width: 60%
+}
+.ListItems span.age, form input[type=number] {
+  width: 30%
+}
+.ListItems span.action, form input[type=submit] {
+  width: 10%
+}
+/* List Item */
+/* form */
+
+form input {
+  padding: 10px;
+  background-color: #ebebeb;
+  border: transparent;
+  border: 0.30px solid #ccc
+}
+form input[type=submit] {
+  background-color: #2ebaee;
+  border: 0.3px solid #2ebaee;
+  color: #fff;
+  cursor: pointer
+}
+/* form */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
